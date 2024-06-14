@@ -18,13 +18,17 @@ body {
 
 .instructions {
     margin-bottom: 20px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
     text-align: center;
 }
 
 canvas {
-    background: #000;
+    background: #222;
     display: block;
     margin: auto;
+    border: 1px solid #fff;
 }
 
 .score-board {

@@ -7,23 +7,21 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="game-container">
+    <div class="container">
         <div class="instructions">
             <h2>Instrukcje</h2>
-            <p>Używaj klawiszy strzałek do sterowania klockami:</p>
+            <p>Używaj strzałek, aby poruszać klockami:</p>
             <ul>
-                <li>← : Przesuń w lewo</li>
-                <li>→ : Przesuń w prawo</li>
-                <li>↓ : Przyspiesz opadanie</li>
-                <li>Q : Obrót w lewo</li>
-                <li>W : Obrót w prawo</li>
+                <li>Strzałka w lewo: przesunięcie w lewo</li>
+                <li>Strzałka w prawo: przesunięcie w prawo</li>
+                <li>Strzałka w dół: przyspieszenie opadania</li>
+                <li>Strzałka w górę: obrót klocka</li>
             </ul>
         </div>
-        <canvas id="tetris" width="320" height="640"></canvas>
-        <div class="score-board">
-            <p>Punkty: <span id="score">0</span></p>
+        <div class="game">
+            <canvas id="tetris" width="320" height="640"></canvas>
         </div>
     </div>
-    <script src="tetris.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
